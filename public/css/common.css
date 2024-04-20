@@ -1,0 +1,40 @@
+h3{
+	font-size: 22px;
+	color: #565656;
+	font-weight: 600;
+}
+.w-full {
+  width: 100% !important;
+}
+.v-card__title {
+    border-bottom: 1px solid #e1e5eb!important;
+}
+
+.breadcrumb-item-custom.disabled {
+    color: grey;
+    pointer-events: none;
+}
+
+.breadcrumb-item-custom {
+    text-decoration: none;
+}
+.v-breadcrumbs {
+    padding: 0;
+    margin-bottom: 40px;
+}
+.v-breadcrumbs a, .theme--light.v-list .v-list__group__header:hover, .theme--light.v-list .v-list__tile--highlighted, .theme--light.v-list .v-list__tile--link:hover{
+	color: #f57829;
+}
+
+.v-breadcrumbs li .v-icon{
+	color: #cacedb;
+}
+
+
+.display-2 {
+    color: #565656;
+    font-size: 18px!important;
+    margin-bottom: 0;
+    display: block;
+	font-weight: 400;
+}

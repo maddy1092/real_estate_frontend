@@ -1,0 +1,200 @@
+.v-table__overflow::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  .v-table__overflow::-webkit-scrollbar-track {
+    background: var(--lightestgrey); 
+  }
+  
+  /* Handle */
+  .v-table__overflow::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .search-field{
+    max-width: 240px;
+    min-height: 5px !important;
+    max-height: 36px !important;
+  }
+  .search-field .v-input__control {
+    min-height: 5px !important;
+    max-height: 36px !important;
+  }
+  .v-text-field--outline>.v-input__control>.v-input__slot {
+    min-height: 5px !important;
+    max-height: 36px !important;
+  }
+  .search-field .v-input__control .v-input__slot{
+    border: none !important;
+    background-color: rgb(242,242,242)!important;
+    border-top-left-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+    padding:0px!important;
+  }
+  .search-field .v-input__control .v-input__slot input{
+    padding-inline-start: 45px;
+    padding-bottom: 2rem;
+  }
+  .search-field .v-input__prepend-outer{
+    z-index: 1;
+    margin:0px;
+    margin-top:0px!important;
+    top:calc(50%);
+    left:22px;
+    transform: translateY(-50%);
+  }
+  .listing__table{
+    width: 100%;
+  }
+  .listing__table  table{
+    /* border-collapse:separate;
+    border-spacing:0 12px; */
+    }
+  .v-datatable__expand-row table{
+    border-collapse:collapse;
+    border-spacing:0;
+  }
+  .listing__table .outer-row{
+    box-shadow:0px 0px 8px  rgba(0,0,0,0.1);
+  }
+  .listing__table .outer-row  td {
+    height:51px
+  }
+  .listing__table__table svg{
+    margin-inline-end: 5px;
+    display: inline-block;
+    vertical-align: middle;
+  }  
+    
+  .listing__table  span{
+    vertical-align: middle;
+    display: inline-block;
+    color: #7C7C7C;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .listing__table  span:first-child{
+    margin-inline-end: 5px;
+  }
+  .listing__table  td{
+    white-space: nowrap;
+  }
+  .grid-container {
+    display: inline-grid;
+    grid-template-columns: auto;
+    width: 100%;
+  }
+  .more-details{
+    width:88px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F57829;
+    color:#fff;
+    font-size:12px;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+  }
+  .margin-left {
+    margin-right: -40px;
+  }
+  .actions{
+    cursor: pointer;
+  }
+  .nested-datatable td {
+    font-size: 14px;
+    color: #7C7C7C;
+    font-weight: 400;
+  }
+  .nested-datatable th{
+    color:#333333!important;
+    font-size: 14px!important;
+    font-weight: 500!important;
+  }
+  .nested-datatable .v-card__text{
+    padding:0px;
+    max-width: 100% !important;
+    min-width: 100% !important;
+  }
+  .more-details.active{
+    background-color: #B9A293;
+  }
+  .active-class span:nth-child(2){
+    color:#F57829 !important;
+  }
+  .active-class span img {
+    filter: invert(52%) sepia(97%) saturate(898%) hue-rotate(339deg) brightness(95%) contrast(101%);
+  }
+  .rent-management__table .theme--light.v-table tbody tr:hover:not(.v-datatable__expand-row){
+    background-color: #fff;
+  }
+    
+  .active-class {
+    box-shadow: 1px -1px 6px rgba(0 ,0 ,0 ,0.1)!important;
+  }
+  .active-class + tr .nested-datatable  {
+    box-shadow: 1px 5px 6px rgba(0 ,0 ,0 ,0.1)!important;
+  }
+  .v-datatable__expand-content .v-card__text{
+    padding:0px
+  }
+  .most-inner-datatable{
+    box-shadow: none;
+  }
+  @media(max-width:768px){
+    .re-wrap .v-toolbar__content {
+    height: unset!important;
+    padding-top: 5px;
+  }
+  }
+  @media(max-width:600px){
+    .filter-btn{
+        margin:0px
+    }
+  }
+  @media(max-width:420px){
+    .search-field{
+        max-width:100%
+    }
+  }
+  
+  @media(max-width:1264px){
+    .padding-left{
+        padding-left:24px!important
+    }
+  }
+  @media(max-width:600px){
+      .padding-left{
+        padding-left:0px!important
+    }
+  }
+  
+  .download{
+    background-color: transparent!important;
+    box-shadow: none!important;
+    color: #121212!important;
+    font-weight: 400!important;
+    position: relative!important;
+    padding: 0 5px!important;
+    transition: all .3s ease-in-out
+  }
+  .icons {
+    padding-top: 0.6rem;
+  }
+  .re-flex .re-radios {
+    margin: 0 10px;
+  }
+  .display-2 {
+    font-size: 28px!important;
+    line-height: 48px!important;
+    letter-spacing: normal!important;
+}
